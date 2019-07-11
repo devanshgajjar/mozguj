@@ -1,12 +1,7 @@
 import React from "react"
-<<<<<<< HEAD
 import { graphql } from "gatsby"
 import Masonry from "react-masonry-component"
 import Img from "gatsby-image"
-=======
-import { Link } from "gatsby"
-import Button from "@material-ui/core/Button"
->>>>>>> 'rebasing'
 import Layout from "../components/layout"
 import { SemiCircle, SemiCircleContainer } from "../components/circular"
 import { Grid, Typography, GridList } from "@material-ui/core"
@@ -23,7 +18,6 @@ const StyledButton = styled.button`
 
 const IndexPage = ({ data }) => (
   <Layout>
-<<<<<<< HEAD
     <SemiCircleContainer>
       <SemiCircle color="#049ea8" home />
     </SemiCircleContainer>
@@ -80,15 +74,6 @@ const IndexPage = ({ data }) => (
         </StyledButton>
       </Grid>
     </Grid>
-=======
-    <SEO title="Home" />
-    <h1>About MozGuj</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Button variant="contained" color="primary">
-      HOle
-    </Button>
->>>>>>> 'rebasing'
   </Layout>
 )
 

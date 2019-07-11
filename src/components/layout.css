@@ -140,7 +140,7 @@ input {
 }
 button,
 select {
-  text-transform: none !important;
+  text-transform: none;
 }
 [type="reset"],
 [type="submit"],
